@@ -50,7 +50,7 @@ body {
     line-height: 80px;
     padding: 0 30px;
 }
-.content {
+.contents {
     width: 1000px;
     margin: 0 auto;
     padding: 30px;
@@ -64,6 +64,11 @@ body {
     margin-bottom: 20px;
 }
 
+.contents .phot {
+    width: 1000px;
+    margin-bottom: 30px;
+}
+
 .item {
     display: flex;
 }
@@ -75,9 +80,11 @@ body {
     margin-right: 50px;
 }
 
+.item .texts {}
+
 .item .texts h3{
     font-size: 24px;
-    margin: 30px;
+    margin-bottom: 30px;
 }
 
 .bottom {
