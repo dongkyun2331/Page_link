@@ -64,7 +64,7 @@ body {
     margin-bottom: 20px;
 }
 
-.contents .phot {
+.contents .photo {
     width: 1000px;
     margin-bottom: 30px;
 }
@@ -78,13 +78,42 @@ body {
     width: 300px;
     height: 210px;
     margin-right: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item .image img {
+    width: 300px;
+    height: 210px;
 }
 
 .item .texts {}
 
-.item .texts h3{
+.item .texts h3 {
     font-size: 24px;
     margin-bottom: 30px;
+}
+
+.item .item_01 {
+    /* background-color: red; */
+}
+
+.item.item_01 .image {
+    /* background-color: blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+
+    background: url("../images/london.png") no-repeat center center;
+    background-size: cover;
+} 
+
+.item.item_02 .image {
+    background: url("../images/paris.png") no-repeat center center;
+}
+
+.item.item_03 .image {
+    background: url("../images/tokyo.png") no-repeat center center;
 }
 
 .bottom {
@@ -93,4 +122,22 @@ body {
     font-size: 14px;
     color: #666;
     border-top: 1px solid #ddd;
+}
+
+.contents .photo_london {
+    height: 600px;
+    background:url(../images/london_b.png) no-repeat center center;
+    background-size: cover;
+}
+
+.contents .photo_paris {
+    height: 600px;
+    background: url(../images/paris_b.png) no-repeat center center;
+    background-size: cover;
+}
+
+.contents .photo_tokyo {
+    height: 600px;
+    background: url(../images/tokyo_b.png) no-repeat center center;
+    background-size: cover;
 }
