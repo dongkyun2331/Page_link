@@ -71,6 +71,7 @@ body {
 
 .item {
     display: flex;
+    margin-bottom: 30px;
 }
 
 .item .image {
@@ -99,7 +100,7 @@ body {
 }
 
 .item.item_01 .image {
-    /* background-color: blue;
+    /* background-image: url("../images/london_b.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; */
@@ -108,12 +109,14 @@ body {
     background-size: cover;
 } 
 
-.item.item_02 .image {
+.item.item_02 .image { 
     background: url("../images/paris.png") no-repeat center center;
+    background-size: cover;
 }
 
-.item.item_03 .image {
+.item.item_03 .image { 
     background: url("../images/tokyo.png") no-repeat center center;
+    background-size: cover;
 }
 
 .bottom {
